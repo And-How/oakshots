@@ -23,7 +23,13 @@ There is room for slip ups here- this all assumes a nice real, random set of coo
 
 So we now have X/Y in a rough coordinate that isn't accurate to the household level- good for public use in this case. (not good enough for public health data btw). We want to map it, so we need to reproject into a web format. We could use GDAL command line to do it, but the simple way that helps you see what the point of this is as follows.
 
-Open the csv file in [QGIS](http://qgis.org), using the **Add Text File** tool. It should detect that you have coordinates in the file, and will ask you to confirm the projection next- we pick NAD 83 California State Plane III, just because we now that's right... Our map view will show to spots, our city is the top rght cluster, the bottom left is Null Island, I've been there and gotten the t-shirt. Don't go there.
+Open the csv file in [QGIS](http://qgis.org), using the **Add Text File** tool. It should detect that you have coordinates in the file, and will ask you to confirm the projection next- we pick NAD 83 California State Plane III, just because we now that's right... 
+/images/import.png
+
+/images/coords.png
+
+
+Our map view will show to spots, our city is the top rght cluster, the bottom left is Null Island, I've been there and gotten the t-shirt. Don't go there.
 
 If you open your attributes you'll see your rounded coordinates. If you click on the Globe symbol on bottom right you'll be able to select a new projection and use On-The-Fly projections, pick **WGS84** or Web Mercator Auxilary Sphere, either is fine for this level of accuracy. If you want to know this stuff then be prepared- projections are not for the feint of heart.
 
