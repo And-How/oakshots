@@ -29,6 +29,7 @@ Open the csv file in [QGIS](http://qgis.org), using the **Add Text File** tool. 
 ![image](/images/coords.png?raw=true)
 
 Our map view will show to spots, our city is the top rght cluster, the bottom left is Null Island, I've been there and gotten the t-shirt. Don't go there.
+
 ![image](/images/map.png?raw=true)
 
 If you open your attributes you'll see your rounded coordinates. If you click on the Globe symbol on bottom right you'll be able to select a new projection and use On-The-Fly projections, pick **WGS84** or Web Mercator Auxilary Sphere, either is fine for this level of accuracy. If you want to know this stuff then be prepared- projections are not for the feint of heart.
