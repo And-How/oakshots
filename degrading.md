@@ -26,7 +26,7 @@ So we now have X/Y in a rough coordinate that isn't accurate to the household le
 Open the csv file in [QGIS](http://qgis.org), using the **Add Text File** tool. It should detect that you have coordinates in the file, and will ask you to confirm the projection next- we pick NAD 83 California State Plane III, just because we now that's right... 
 ![image](/images/import.png?raw=true)
 
-![image](/images/coords.png
+![image](/images/coords.png?raw=true)
 
 
 Our map view will show to spots, our city is the top rght cluster, the bottom left is Null Island, I've been there and gotten the t-shirt. Don't go there.
