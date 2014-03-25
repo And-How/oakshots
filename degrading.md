@@ -40,3 +40,4 @@ From the Vector menu select geometry **Tools>Export/Add Geometry**
 
 Pick your layer, then select the Project CRS form the dropdown- this is telling the app to use WGS 84, then hit OK or click the box to create a new shapefile from this- if you do that the result will be a shapefile that has the original fuzzed cooridnates in X/Y and your new web ready lat/long values based upon those fuzzed coordinates. Now you can load this into TileMill, CartoDB or wherever internet maps lead you! And you're not dumping all the points in the correct spot. Which is sad, but perhaps wise in this case?
 
+The final data from this process is available on OpenOakland's [data site](http://newdata.openoakland.org/dataset/shotspotter-incidents-0).
