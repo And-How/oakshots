@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-    <title>Oakland Shotspotter Incidents 2013</title>
+    <title>Oakland Shotspotter Incidents 2008 to Oct. 2013</title>
     <link rel="shortcut icon" href="http://cartodb.com/favicon/favicon_32x32.ico" />
     <link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="lib/cartodb.css">
@@ -77,9 +77,9 @@
         map.setOptions({styles:map_style.google_maps_customization_style});
 
         var TorqueOptions = {
-            user: "spjika",
-            table: "shots2013",
-            column: "occurrence",
+            user: "open-oakland",
+            table: "oakshots",
+            column: "date_tim",
             cumulative: true,
             resolution: 2,
             steps: 365,
