@@ -1,4 +1,6 @@
-##Visualizing Homicides in Philadelphia
+##Visualizing Oakland Housing Stock
+
+I am modifying Oakland Assessor's data to show housing stock overtime. It is based on the timelapse map of shots fired from OpenOakland, which is based on this philadelphia crime data map:
 
 This is a demo application that uses [CartoDB](http://cartodb.com/), [Torque](https://github.com/CartoDB/torque) and crime incident data from the [City of Phladelphia](http://opendataphilly.org/opendata/resource/215/philadelphia-police-part-one-crime-incidents/).
 
